@@ -1,2 +1,0 @@
-# backend_social_net
-backend_social_net
