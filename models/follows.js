@@ -12,6 +12,10 @@ const FollowSchema = Schema({
     ref: "User",
     required: true
   },
+  schedule_at: {
+    type: Date,
+    default: null  // Campo opcional para sesiones de tutoría agendadas
+  },
   created_at: {
     type: Date,
     default: Date.now
